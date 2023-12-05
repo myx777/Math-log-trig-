@@ -1,0 +1,31 @@
+{
+  "name": "math-log-trig-",
+  "version": "1.0.0",
+  "description": "Мощь атаки магов и демонов привела к разбалансировке игрового мира. Поэтому вы ввели для игроков несколько новых правил и возможностей:\r 1. Сила урона зависит от расстояния (для `Magician`, `Daemon`) - линейно падает, а именно: на ближайшую клетку 100%, на 5 клетку от себя - 60% (соответственно, на 2-ую клетку - 90%, на 3-ую - 80%, на 4-ую - 70%)\r 1. Возможность насылать «дурман» на магов и демонов. При это их сила атаки падает уже не только линейно, а по формуле: `attack - log2(x) * 5`, где `x` - это расстояние в клетках. `attack` рассчитывается с учётом п.1. Пример: атака 100 единиц, атакуем 2 клетку от себя, получаем вместе с дурманом: 85 (вместо 90).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/myx777/Math-log-trig-.git"
+  },
+  "author": "myx777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myx777/Math-log-trig-/issues"
+  },
+  "homepage": "https://github.com/myx777/Math-log-trig-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "core-js": "^3.34.0",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.7.0",
+    "minimatch": "^3.0.2"
+  }
+}
