@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1701973526833" clover="3.2.0">
+  <project timestamp="1701973526833" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8" elements="41" coveredelements="41" complexity="0" loc="25" ncloc="25" packages="1" files="3" classes="3"/>
+    <file name="AdjustedCharacter.js" path="/Users/anton/Desktop/netology/homework/Math-log-trig-/src/js/AdjustedCharacter.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+    </file>
+    <file name="Character.js" path="/Users/anton/Desktop/netology/homework/Math-log-trig-/src/js/Character.js">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="21" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="27" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="28" count="2" type="stmt"/>
+    </file>
+    <file name="Magician.js" path="/Users/anton/Desktop/netology/homework/Math-log-trig-/src/js/Magician.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
