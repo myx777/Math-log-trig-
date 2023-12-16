@@ -1,16 +1,27 @@
 import Character from './Character';
+// #stoned;
 
 export default class AdjustedCharacter extends Character {
   constructor(name, type, distance, baseAttack, stoned) {
     super(name, type);
     this.distance = distance;
-    this.stoned = stoned;
+    this._stoned = stoned;
     this.baseAttack = baseAttack;
+  }
+  get stoned() {
+    return this._stoned;
+  }
+
+  set stoned(value) {
+    if (typeof value !== 'boolean') {
+      throw new Error('stoned must be a boolean');
+    }
+    this._stoned = value;
   }
 
   get attack() {
     const baseAttackStoned = this.calculateBaseAttack();
-    return this.stoned ? this.calculateStonedAttack(baseAttackStoned) : baseAttackStoned;
+    return this._stoned ? this.calculateStonedAttack(baseAttackStoned) : baseAttackStoned;
   }
 
   calculateBaseAttack() {
